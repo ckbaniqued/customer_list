@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("3.109.187.205", "root", "royale1987", "db_automation");
+$connect = mysqli_connect("3.108.184.34", "royale", "royale1987", "db_automation");
 if(isset($_POST["name"], $_POST["cashapp"], $_POST["RS"], $_POST["XG"], $_POST["FK"], $_POST["UM"], $_POST["OS"], $_POST["MW"], $_POST["DU"]))
 {
  $name = mysqli_real_escape_string($connect, $_POST["name"]);
