@@ -1,5 +1,5 @@
 <?php 
-$connect = mysqli_connect("3.109.187.205", "root", "royale1987", "db_automation");
+$connection = mysqli_connect("3.108.184.34", "royale", "royale1987", "db_automation");
 $loginError = "";
 if(isset($_POST['login'])){
 
