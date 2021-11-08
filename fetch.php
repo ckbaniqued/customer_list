@@ -1,6 +1,6 @@
 <?php
 //fetch.php
-$connect = mysqli_connect("3.109.187.205", "root", "royale1987", "db_automation");
+$connect = mysqli_connect("3.108.184.34", "royale", "royale1987", "db_automation");
 $columns = array('name', 'cashapp', 'RS', 'XG', 'FK', 'UM', 'OS', 'MW', 'DU');
 
 $query = "SELECT * FROM customer_list";
